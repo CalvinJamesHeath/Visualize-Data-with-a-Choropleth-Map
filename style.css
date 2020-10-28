@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:";
+}
+html { 
+    background: url("https://www.gannett-cdn.com/-mm-/b2b05a4ab25f4fca0316459e1c7404c537a89702/c=0-0-1365-768/local/-/media/2019/06/30/USATODAY/usatsports/gettyimages-153718849.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+html, body{
+
+    min-height: 100%;
+}
+
+svg{
+    background-color: #305555;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2); 
+    border-radius: 5px;
+    padding:10px;
+    border-radius:5px;
+}
+
+.county:hover{
+    fill: black
+}
+
+#canvas{
+    min-width: 1000px;
+    min-height: 600px;
+}
+
+#title{
+    font-size: 28px;
+    color: #FDF1E7;
+    text-transform: uppercase;
+    margin-top: 10px;
+    text-decoration: underline;
+
+}
+
+#sub-title{
+    text-decoration: underline;
+    color: #ffffff;
+    font-size: 18px;
+    color: #FDF1E7;
+    text-transform: uppercase;
+    margin-top: -3px;
+}
+
+
+#tooltip{
+    visibility: hidden;
+    height: auto;
+    width: auto;
+    margin-top: 2px;
+    color: #FDF1E7;
+    font-size: 20px;
+    margin-bottom: 5px;
+    background-color: #305555;
+    
+}
+
+#legend{
+    color: rgb(56, 58, 74);
+    font-size: 18px;
+    text-align: center;
+    min-height: 150px;
+    max-width: 180px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+#description {
+    font-weight: 50px;
+    font-size: 20px;
+    margin-right: 20px;
+
+}
+
+#description a{
+    text-decoration: none;
+    color: #FDF1E7;
+    text-align: center;
+}
+
+#container{
+    display: flex;
+    flex-flow: row-reverse;
+    align-items: center;
+    width: 100%;
+    margin-right: 70px;
+    margin-bottom: 50px;
+    
+}
+span{
+    text-decoration: underline;
+}
+#leftSide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 25px;
+}
